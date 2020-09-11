@@ -3,7 +3,7 @@
 <head>
     <!-- Settings -->
     <meta charset="UTF-8">
-    <meta name="description" content="">
+    <meta name="Website die die Kantonale Flächen des Thurgaus grafisch darstellt" content="">
     <meta name="keywords" content="">
     <meta name="author" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,4 +24,8 @@
     <nav></nav>
     <main></main>
     <footer></footer>
+
+<!-- Script -->
+<script src="js/index.js"></script>
+
 </body>
