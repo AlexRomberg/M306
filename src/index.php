@@ -14,7 +14,11 @@
 
     <!-- Stylesheets -->
     <link rel="stylesheet" type="text/css" href="css/general.css">
-    <link rel="stylesheet" type="text/css" href="css/<?php echo(basename($_SERVER['SCRIPT_NAME'], ".php")) ?>.css">
+    <link rel="stylesheet" type="text/css" href="css/<?php echo (basename($_SERVER['SCRIPT_NAME'], ".php")) ?>.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+
+    <!-- libraries -->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
 
     <!-- Favicons -->
 </head>
@@ -22,10 +26,12 @@
 <body>
     <header></header>
     <nav></nav>
-    <main></main>
+    <main>
+        <div id="map" style="width: 600px; height: 400px;"></div>
+    </main>
     <footer></footer>
 
-<!-- Script -->
-<script src="js/index.js"></script>
+    <!-- Script -->
+    <script src="js/index.js"></script>
 
 </body>
