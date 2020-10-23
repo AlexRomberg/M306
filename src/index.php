@@ -13,9 +13,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="css/<?php echo (basename($_SERVER['SCRIPT_NAME'], ".php")) ?>.css">
-    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" type="text/css" href="css/general.css">
+    <link rel="stylesheet" type="text/css" href="css/<?php echo (basename($_SERVER['SCRIPT_NAME'], ".php")) ?>.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
 
+    <!-- libraries -->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
 
     <!-- Favicons -->
     <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
@@ -46,7 +49,9 @@
     <div class="row">
         <div class="side">
             <h2>Map</h2>
-            <div class="map" style="height:200px;">add Map Here</div>
+            <div class="map" style="height:200px;">
+              <div id="map" style="width: 600px; height: 400px;"></div>
+            </div>
             <p>Lorem ipsum dolor sit ame.</p>
 
         </div>
@@ -63,7 +68,6 @@
     <div class="footer">
         <h2>Footer</h2>
     </div>
-
 
     <!-- Script -->
     <script src="js/index.js"></script>
