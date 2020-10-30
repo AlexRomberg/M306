@@ -33,40 +33,33 @@
 
 <body>
     <!-- Header -->
-    <div class="header">
+    <header>
         <h1>Nutzungsflächer Thurgau</h1>
         <p>Logo</p>
-    </div>
+    </header>
 
     <!-- Navigation Bar -->
-    <div class="navbar">
+    <nav>
         <a href="#">Map</a>
-
-
-    </div>
+    </nav>
 
     <!-- The flexible grid (content) -->
-    <div class="row">
-        <div class="side">
+    <main>
+        <div class="main">
             <h2>Map</h2>
-            <div class="map" style="height:200px;">
-              <div id="map" style="width: 600px; height: 400px;"></div>
-            </div>
+            <div id="map"></div>
             <p>Lorem ipsum dolor sit ame.</p>
 
         </div>
-        <div class="main">
-            <h2>Filter</h2>
-            <div class="fakeimg" style="height:200px;">Filter</div>
-            <br>
+        <div class="side">
             <h2>Legend</h2>
-            <div class="fakeimg" style="height:200px;">Legend</div>
+            <div class="box" style="height:500px;">Legend</div>
         </div>
-    </div>
+    </main>
 
     <!-- Footer -->
     <div class="footer">
-        <h2>Footer</h2>
+        <h2><a href="mailto:luca.hanimann@stud.kftg.ch">Kontakt</a></h2>
     </div>
 
     <!-- Script -->
