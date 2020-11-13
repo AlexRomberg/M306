@@ -53,7 +53,12 @@
         </div>
         <div class="side">
             <h2>Legend</h2>
-            <div class="box" style="height:500px;">Legend</div>
+            <div class="box" style="height:500px;">
+                <div class="singleLayer">
+                    <input type="checkbox" id="0">
+                    <img src="https://ows.geo.tg.ch/geofy_access_proxy/landwirtschaft_kulturflaechen?request=GetLegendGraphic&layer=nutzungsflaechen_hauptkulturen&style=default&service=WMS&version=1.3.0&format=image%2Fpng&sld_version=1.1.0&lang=de" alt="legend not available :(">
+                </div>
+            </div>
         </div>
     </main>
 
