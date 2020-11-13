@@ -50,6 +50,18 @@
             <div id="map"></div>
             <p>Lorem ipsum dolor sit ame.</p>
 
+            <h2>
+                Anleitung
+            </h2>
+            <p>
+                Diese Karte zeigt an welche gebiete im Thurgau Nutzflächen sind und welchen Projekt sie erfüllen.
+                Dieses Projekt ist im Rahmen eines Auftrages in der Informatikmittelschule Frauenfeld, entstanden.
+            </p>
+            <p>
+                Sie Können sich mithilfe der Maus auf der Karte bewegen, die Ihnen die Nutzungsflächen Anzeigen.
+                Möchten sie gewisse Flächen ein/aus Blenden, können sie dies mithilfe der Legende auf der rechten seite der Website tun.
+            </p>
+
         </div>
         <div class="side">
             <h2>Legend</h2>

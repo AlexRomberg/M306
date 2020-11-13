@@ -40,3 +40,22 @@ layers.forEach(layer => {
 // layers.forEach(layer => {
 //     layer.removeFrom(mymap);
 // });
+
+var cbs = document.getElementsByClassName("cbLegend");
+console.log;
+cbs.forEach(checkbox => {
+    //onclick =>
+    checkbox.attachEvent('onclick', showLayer());
+
+});
+
+
+//function
+function showLayer(sender) {
+    var id = sender.getAttribute("layer");
+    if (sender.isChecked()) {
+        layers[id].addTo(mymap);
+    } else {
+        layer[id].removeFrom(mymap);
+    }
+}
