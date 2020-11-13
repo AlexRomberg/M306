@@ -34,8 +34,8 @@
 <body>
     <!-- Header -->
     <header>
-        <h1>Nutzungsflächer Thurgau</h1>
-        <p>Logo</p>
+        <img src="res/Logo.svg">
+        <h1>Nutzungsflächen Thurgau</h1>
     </header>
 
     <!-- Navigation Bar -->
