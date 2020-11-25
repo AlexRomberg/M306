@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 630 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-2065.39,-1043.39)">
+        <g id="Artboard5" transform="matrix(1,0,0,0.0883057,-838.944,1043.39)">
+            <rect x="2904.33" y="0" width="630" height="307.704" style="fill:none;"/>
+            <g transform="matrix(1.20867,0,0,13.6873,2901.92,-34.8358)">
+                <text x="32.674px" y="19.238px" style="font-family:'CenturyGothic', 'Century Gothic', sans-serif;font-size:15.513px;">Nutzungsﬂächen</text>
+            </g>
+            <g transform="matrix(1,0,0,11.3243,838.944,-11815.6)">
+                <path d="M2094.11,1048.69C2094.11,1047.97 2093.52,1047.39 2092.81,1047.39L2070.69,1047.39C2069.97,1047.39 2069.39,1047.97 2069.39,1048.69L2069.39,1064.56C2069.39,1065.28 2069.97,1065.86 2070.69,1065.86L2092.81,1065.86C2093.52,1065.86 2094.11,1065.28 2094.11,1064.56L2094.11,1048.69ZM2091.51,1049.99L2071.99,1049.99L2071.99,1063.27L2091.51,1063.27L2091.51,1049.99Z" style="fill:rgb(51,204,255);"/>
+            </g>
+        </g>
+    </g>
+</svg>
