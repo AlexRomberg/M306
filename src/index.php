@@ -69,28 +69,28 @@
                         <input type="checkbox" class="cbLegend" layer="3" checked>
                         <h2>Nutzungsflächen (Hauptkategorien)</h2>
                     </div>
-                    <img src="https://ows.geo.tg.ch/geofy_access_proxy/landwirtschaft_kulturflaechen?request=GetLegendGraphic&layer=nutzungsflaechen_hauptkulturen&style=default&service=WMS&version=1.3.0&format=image%2Fpng&sld_version=1.1.0&lang=de" alt="legend not available :(">
+                    <img src="https://ows.geo.tg.ch/geofy_access_proxy/landwirtschaft_kulturflaechen?request=GetLegendGraphic&layer=nutzungsflaechen_hauptkulturen&style=default&service=WMS&version=1.3.0&format=image%2Fpng&sld_version=1.1.0&lang=de" alt="legend not available :(" style="width: 250px;">
                 </div>
                 <div class="singleLayer">
                     <div>
                         <input type="checkbox" class="cbLegend" layer="2" checked>
                         <h2>Nutzungsflächen (Hauptkategorien Textur)</h2>
                     </div>
-                    <img src="https://ows.geo.tg.ch/geofy_access_proxy/landwirtschaft_kulturflaechen?request=GetLegendGraphic&layer=nutzungsflaechen_hauptkulturen_textur&style=default&service=WMS&version=1.3.0&format=image%2Fpng&sld_version=1.1.0&lang=de" alt="legend not available :(">
+                    <img src="https://ows.geo.tg.ch/geofy_access_proxy/landwirtschaft_kulturflaechen?request=GetLegendGraphic&layer=nutzungsflaechen_hauptkulturen_textur&style=default&service=WMS&version=1.3.0&format=image%2Fpng&sld_version=1.1.0&lang=de" alt="legend not available :(" style="width: 250px;">
                 </div>
                 <div class="singleLayer">
                     <div>
                         <input type="checkbox" class="cbLegend" layer="1" checked>
                         <h2>Nutzungsflächen (BFF QI Fläche TG)</h2>
                     </div>
-                    <img src="https://ows.geo.tg.ch/geofy_access_proxy/landwirtschaft_kulturflaechen?request=GetLegendGraphic&layer=nutzungsflaechen_flaechen_tg&style=default&service=WMS&version=1.3.0&format=image%2Fpng&sld_version=1.1.0&lang=de" alt="legend not available :(">
+                    <img src="https://ows.geo.tg.ch/geofy_access_proxy/landwirtschaft_kulturflaechen?request=GetLegendGraphic&layer=nutzungsflaechen_flaechen_tg&style=default&service=WMS&version=1.3.0&format=image%2Fpng&sld_version=1.1.0&lang=de" alt="legend not available :(" style="width: 100%;">
                 </div>
                 <div class="singleLayer">
                     <div>
                         <input type="checkbox" class="cbLegend" layer="0" checked>
                         <h2>Nutzungsflächen</h2>
                     </div>
-                    <img src="https://ows.geo.tg.ch/geofy_access_proxy/landwirtschaft_kulturflaechen?request=GetLegendGraphic&layer=nutzungsflaechen_&style=default&service=WMS&version=1.3.0&format=image%2Fpng&sld_version=1.1.0&lang=de" alt="legend not available :(">
+                    <img src="https://ows.geo.tg.ch/geofy_access_proxy/landwirtschaft_kulturflaechen?request=GetLegendGraphic&layer=nutzungsflaechen_&style=default&service=WMS&version=1.3.0&format=image%2Fpng&sld_version=1.1.0&lang=de" alt="legend not available :(" style="width: 30%;">
                 </div>
             </div>
         </div>
