@@ -1,0 +1,285 @@
+@media (prefers-color-scheme: dark) {
+    /* User-Agent Style */
+    html {
+        background-color: #323334 !important;
+    }
+    html,
+    body,
+    input,
+    textarea,
+    select,
+    button {
+        background-color: #323334;
+    }
+    html,
+    body,
+    input,
+    textarea,
+    select,
+    button {
+        border-color: #767066;
+        color: #ceccca;
+    }
+    a {
+        color: #468ddf;
+    }
+    table {
+        border-color: #5f6466;
+    }
+     ::placeholder {
+        color: #a5a099;
+    }
+    input:-webkit-autofill,
+    textarea:-webkit-autofill,
+    select:-webkit-autofill {
+        background-color: #606420 !important;
+        color: #ceccca !important;
+    }
+     ::-webkit-scrollbar {
+        background-color: #383a3b;
+        color: #a09b93;
+    }
+     ::-webkit-scrollbar-thumb {
+        background-color: #54575a;
+    }
+     ::-webkit-scrollbar-thumb:hover {
+        background-color: #616669;
+    }
+     ::-webkit-scrollbar-thumb:active {
+        background-color: #565a5d;
+    }
+     ::-webkit-scrollbar-corner {
+        background-color: #323334;
+    }
+    * {
+        scrollbar-color: #383a3b #54575a;
+    }
+     ::selection {
+        background-color: #205a9f !important;
+        color: #ceccca !important;
+    }
+     ::-moz-selection {
+        background-color: #205a9f !important;
+        color: #ceccca !important;
+    }
+    /* Invert Style */
+    .jfk-bubble.gtx-bubble,
+    .captcheck_answer_label>input+img,
+    embed[type="application/pdf"] {
+        filter: invert(100%) hue-rotate(180deg) contrast(65%) !important;
+    }
+    /* Variables Style */
+     :root {
+        --darkreader-neutral-background: #181a1b;
+        --darkreader-neutral-text: #e8e6e3;
+        --darkreader-selection-background: #205a9f;
+        --darkreader-selection-text: #ceccca;
+    }
+    /* Modified CSS */
+    header {
+        background-color: rgb(45, 132, 78);
+        background-image: none;
+        color: rgb(206, 204, 202);
+    }
+    nav {
+        background-color: rgb(60, 63, 64);
+    }
+    nav a {
+        color: rgb(206, 204, 202);
+        text-decoration-color: currentcolor;
+    }
+    .main {
+        background-color: rgb(56, 58, 59);
+    }
+    .side {
+        background-color: rgb(50, 51, 52);
+    }
+    .box {
+        background-color: rgb(50, 51, 52);
+    }
+    #map {
+        background-color: rgb(86, 90, 93);
+    }
+    .singleLayer {
+        background-color: rgb(50, 51, 52);
+        box-shadow: rgba(32, 32, 32, 0.75) 0px 0px 16px 1px;
+    }
+    .singleLayer div {
+        background-color: rgb(86, 90, 93);
+    }
+    .footer {
+        background-color: rgb(64, 67, 69);
+        background-image: none;
+    }
+    .footer a {
+        color: rgb(206, 204, 202);
+        text-decoration-color: currentcolor;
+    }
+    .footer a:hover {
+        text-decoration-color: currentcolor;
+    }
+    /* .leaflet-tile::selection {
+        background-color: transparent;
+        background-image: none;
+    }
+    .leaflet-container {
+        background-color: rgb(64, 67, 69);
+        background-image: none;
+        outline-color: currentcolor;
+    }
+    .leaflet-container a {
+        color: rgb(96, 187, 223);
+    }
+    .leaflet-container a.leaflet-active {
+        outline-color: rgb(166, 119, 32);
+    }
+    .leaflet-zoom-box {
+        border-color: rgb(32, 83, 154);
+        background-color: rgba(50, 51, 52, 0.5);
+        background-image: none;
+    }
+    .leaflet-bar {
+        box-shadow: rgba(32, 32, 32, 0.65) 0px 1px 5px;
+    }
+    .leaflet-bar a,
+    .leaflet-bar a:hover {
+        background-color: rgb(50, 51, 52);
+        border-bottom-color: rgb(78, 83, 84);
+        text-decoration-color: currentcolor;
+        color: rgb(206, 204, 202);
+    }
+    .leaflet-bar a:hover {
+        background-color: rgb(54, 57, 57);
+    }
+    .leaflet-bar a:last-child {
+        border-bottom-color: currentcolor;
+    }
+    .leaflet-bar a.leaflet-disabled {
+        background-color: rgb(54, 57, 57);
+        color: rgb(174, 169, 163);
+    }
+    .leaflet-control-layers {
+        box-shadow: rgba(32, 32, 32, 0.4) 0px 1px 5px;
+        background-color: rgb(50, 51, 52);
+        background-image: none;
+    }
+    .leaflet-control-layers-toggle {
+        background-image: url("https://unpkg.com/leaflet@1.7.1/dist/images/layers.png");
+    }
+    .leaflet-retina .leaflet-control-layers-toggle {
+        background-image: url("https://unpkg.com/leaflet@1.7.1/dist/images/layers-2x.png");
+    }
+    .leaflet-control-layers-expanded {
+        color: rgb(182, 178, 173);
+        background-color: rgb(50, 51, 52);
+        background-image: none;
+    }
+    .leaflet-control-layers-separator {
+        border-top-color: rgb(75, 78, 81);
+    }
+    .leaflet-default-icon-path {
+        background-image: url("https://unpkg.com/leaflet@1.7.1/dist/images/marker-icon.png");
+    }
+    .leaflet-container .leaflet-control-attribution {
+        background-color: rgba(50, 51, 52, 0.7);
+        background-image: none;
+    }
+    .leaflet-control-attribution,
+    .leaflet-control-scale-line {
+        color: rgb(182, 178, 173);
+    }
+    .leaflet-control-attribution a {
+        text-decoration-color: currentcolor;
+    }
+    .leaflet-control-attribution a:hover {
+        text-decoration-color: currentcolor;
+    }
+    .leaflet-control-scale-line {
+        border-color: currentcolor rgb(108, 102, 94) rgb(108, 102, 94);
+        background-color: rgba(50, 51, 52, 0.5);
+        background-image: none;
+    }
+    .leaflet-control-scale-line:not(:first-child) {
+        border-top-color: rgb(108, 102, 94);
+        border-bottom-color: currentcolor;
+    }
+    .leaflet-control-scale-line:not(:first-child):not(:last-child) {
+        border-bottom-color: rgb(108, 102, 94);
+    }
+    .leaflet-touch .leaflet-control-attribution,
+    .leaflet-touch .leaflet-control-layers,
+    .leaflet-touch .leaflet-bar {
+        box-shadow: none;
+    }
+    .leaflet-touch .leaflet-control-layers,
+    .leaflet-touch .leaflet-bar {
+        border-color: rgba(137, 129, 118, 0.2);
+    }
+    .leaflet-popup-content-wrapper,
+    .leaflet-popup-tip {
+        background-color: rgb(50, 51, 52);
+        background-image: none;
+        color: rgb(182, 178, 173);
+        box-shadow: rgba(32, 32, 32, 0.4) 0px 3px 14px;
+    }
+    .leaflet-container a.leaflet-popup-close-button {
+        border-color: currentcolor;
+        color: rgb(177, 174, 168);
+        text-decoration-color: currentcolor;
+        background-color: transparent;
+        background-image: none;
+    }
+    .leaflet-container a.leaflet-popup-close-button:hover {
+        color: rgb(158, 152, 144);
+    }
+    .leaflet-popup-scrolled {
+        border-bottom-color: rgb(75, 78, 81);
+        border-top-color: rgb(75, 78, 81);
+    }
+    .leaflet-oldie .leaflet-control-zoom,
+    .leaflet-oldie .leaflet-control-layers,
+    .leaflet-oldie .leaflet-popup-content-wrapper,
+    .leaflet-oldie .leaflet-popup-tip {
+        border-color: rgb(90, 94, 96);
+    }
+    .leaflet-div-icon {
+        background-color: rgb(50, 51, 52);
+        background-image: none;
+        border-color: rgb(111, 106, 97);
+    }
+    .leaflet-tooltip {
+        background-color: rgb(50, 51, 52);
+        border-color: rgb(68, 71, 72);
+        color: rgb(190, 187, 183);
+        box-shadow: rgba(32, 32, 32, 0.4) 0px 1px 3px;
+    }
+    .leaflet-tooltip-top::before,
+    .leaflet-tooltip-bottom::before,
+    .leaflet-tooltip-left::before,
+    .leaflet-tooltip-right::before {
+        border-color: transparent;
+        background-color: transparent;
+        background-image: none;
+    }
+    .leaflet-tooltip-top::before {
+        border-top-color: rgb(68, 71, 72);
+    }
+    .leaflet-tooltip-bottom::before {
+        border-bottom-color: rgb(68, 71, 72);
+    }
+    .leaflet-tooltip-left::before {
+        border-left-color: rgb(68, 71, 72);
+    }
+    .leaflet-tooltip-right::before {
+        border-right-color: rgb(68, 71, 72);
+    } */
+    /* Override Style */
+    .vimvixen-hint {
+        background-color: #7c5e0f !important;
+        border-color: #c2a42e !important;
+        color: #d6ceb6 !important;
+    }
+     ::placeholder {
+        opacity: 0.5 !important;
+    }
+}
