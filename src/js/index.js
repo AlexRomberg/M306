@@ -13,16 +13,6 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
     zoomOffset: -1
 }).addTo(mymap);
 layers.push(L.tileLayer.wms('https://ows.geo.tg.ch/geofy_access_proxy/landwirtschaft_kulturflaechen?', {
-    layers: 'nutzungsflaechen_flaechen_tg',
-    format: 'image/png',
-    transparent: true
-}));
-layers.push(L.tileLayer.wms('https://ows.geo.tg.ch/geofy_access_proxy/landwirtschaft_kulturflaechen?', {
-    layers: 'nutzungsflaechen_',
-    format: 'image/png',
-    transparent: true
-}));
-layers.push(L.tileLayer.wms('https://ows.geo.tg.ch/geofy_access_proxy/landwirtschaft_kulturflaechen?', {
     layers: 'nutzungsflaechen_hauptkulturen',
     format: 'image/png',
     transparent: true
@@ -32,6 +22,18 @@ layers.push(L.tileLayer.wms('https://ows.geo.tg.ch/geofy_access_proxy/landwirtsc
     format: 'image/png',
     transparent: true
 }));
+layers.push(L.tileLayer.wms('https://ows.geo.tg.ch/geofy_access_proxy/landwirtschaft_kulturflaechen?', {
+    layers: 'nutzungsflaechen_flaechen_tg',
+    format: 'image/png',
+    transparent: true
+}));
+layers.push(L.tileLayer.wms('https://ows.geo.tg.ch/geofy_access_proxy/landwirtschaft_kulturflaechen?', {
+    layers: 'nutzungsflaechen_',
+    format: 'image/png',
+    transparent: true
+}));
+
+layers.reverse();
 
 layers.forEach(layer => {
     layer.addTo(mymap);
@@ -41,21 +43,20 @@ layers.forEach(layer => {
 //     layer.removeFrom(mymap);
 // });
 
-var cbs = document.getElementsByClassName("cbLegend");
-console.log;
+var cbs = Array.prototype.slice.call(document.getElementsByClassName("cbLegend"));
 cbs.forEach(checkbox => {
-    //onclick =>
-    checkbox.attachEvent('onclick', showLayer());
+    //onclick
+    checkbox.addEventListener('click', showLayer);
 
 });
 
 
 //function
 function showLayer(sender) {
-    var id = sender.getAttribute("layer");
-    if (sender.isChecked()) {
+    var id = sender.target.getAttribute("layer");
+    if (sender.target.checked) {
         layers[id].addTo(mymap);
     } else {
-        layer[id].removeFrom(mymap);
+        layers[id].removeFrom(mymap);
     }
 }
