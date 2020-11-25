@@ -109,7 +109,7 @@ main {
 .singleLayer img {
     width: 50%;
     padding: 10px;
-    max-width: 250px;
+    max-width: 400px;
 }
 
 
@@ -131,6 +131,7 @@ main {
 }
 
 @media screen and (max-width: 700px) {
+
     .row,
     .navbar {
         flex-direction: column;
