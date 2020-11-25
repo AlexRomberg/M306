@@ -81,6 +81,9 @@
         background-image: none;
         color: rgb(206, 204, 202);
     }
+    header svg path {
+        fill: #ceccca;
+    }
     nav {
         background-color: rgb(60, 63, 64);
     }
