@@ -34,7 +34,7 @@
 <body>
     <!-- Header -->
     <header>
-        <svg viewBox="0 0 177 61" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+        <svg viewBox="0 0 177 61" version="1.1" id="TGlions" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
             <title>Logo Kanton Thurgau</title>
             <g>
                 <path id="Line" d="M128.81,0.13C128.64,0.3 128.64,0.58 128.81,0.75L176.25,48.09C176.42,48.26 176.7,48.26 176.87,48.09C177.04,47.92 177.04,47.64 176.87,47.46L129.43,0.13C129.26,-0.04 128.98,-0.04 128.81,0.13Z" style="fill-rule:nonzero;" />
@@ -47,6 +47,11 @@
         </svg>
         <h1>Nutzungsflächen Thurgau</h1>
     </header>
+
+    <!-- Draggable DIV -->
+    <div id="cat">
+        <img src="res/catgif.gif" alt="Adorable Cat GIF" style="width:128px;height:128px;">
+    </div>
 
     <!-- Navigation Bar -->
     <nav>

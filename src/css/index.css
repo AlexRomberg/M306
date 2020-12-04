@@ -27,26 +27,42 @@ header svg {
 }
 
 header svg:hover #LionTop {
-    animation: moveLion 4s infinite cubic-bezier(1,0,0,1);
+    animation: moveLion 4s infinite cubic-bezier(1, 0, 0, 1);
 }
 
 header svg:hover #LionBottom {
-    animation: moveLion 4s infinite reverse cubic-bezier(1,0,0,1);
+    animation: moveLion 4s infinite reverse cubic-bezier(1, 0, 0, 1);
 }
+
+#cat {
+    position: fixed;
+    cursor: move;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    visibility: hidden;
+}
+
 
 @keyframes moveLion {
     0% {
         transform: translateX(0px) translateY(0px);
     }
+
     40% {
         transform: translateX(-200px) translateY(-200px);
     }
+
     50% {
         transform: translateX(200px) translateY(-200px);
     }
+
     60% {
         transform: translateX(200px) translateY(200px);
     }
+
     100% {
         transform: translateX(0px) translateY(0px);
     }
@@ -158,6 +174,7 @@ main {
 }
 
 @media screen and (max-width: 700px) {
+
     .row,
     .navbar {
         flex-direction: column;
