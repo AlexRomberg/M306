@@ -133,10 +133,8 @@ main {
     font-size: 1.275rem;
 }
 
-.singleLayer img {
-    width: 50%;
-    padding: 10px;
-    max-width: 400px;
+.singleLayer svg {
+    padding: 5px;
 }
 
 
