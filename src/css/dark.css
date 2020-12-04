@@ -110,9 +110,9 @@
     .singleLayer div {
         background-color: rgb(86, 90, 93);
     }
-    .txt path, .txt rect {
-    fill: white;
-}
+    .txt {
+        fill: white;
+    }
     .footer {
         background-color: rgb(64, 67, 69);
         background-image: none;
