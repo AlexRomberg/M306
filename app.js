@@ -6,7 +6,7 @@ cm.log("green", "starting...");
 
 
 // parameters
-let permitted = new RegExp(".css|.js|.gif|.xml|.png|.ico|.webmanifest");
+let permitted = /\.css|\.js|\.gif|\.xml|\.png|\.ico|\.webmanifest|\.svg/;
 let port = 80;
 
 // handle process arguments
@@ -19,26 +19,27 @@ if (process.argv.length > 2) {
 app.listen(port);
 
 // handle requests
-app.get('/', function (req, res) {
+app.get('/', function(req, res) {
     cm.log("white", req.path);
     res.sendFile("./src/index.html", {
         root: __dirname
     });
 });
-app.get('/index.html', function (req, res) {
+
+app.get('/index.html', function(req, res) {
     cm.log("yellow", req.path);
     res.redirect(301, '/');
 })
 
 // 404
 app.use((req, res) => {
-    if (permitted.test(req.path)) {
+    if (permitted.exec(req.path) !== null) {
         cm.log("white", req.path);
         res.sendFile(("./src" + req.path), {
             root: __dirname
         });
     } else {
-        cm.log("red", req.path);
+        cm.log("red", "unknown request: " + req.path);
         res.sendFile("./src/404.html", {
             root: __dirname
         });
