@@ -27,7 +27,7 @@
 </head>
 
 <body>
-    <svg width="100%" height="100%" viewBox="0 0 318 93" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <svg id="titleSvg" width="100%" height="100%" viewBox="0 0 318 93" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
         <g id="Artboard1" transform="matrix(1,0,0,0.556923,66.0175,29.3793)">
             <rect x="-66.017" y="-52.753" width="317.383" height="166.37" style="fill:none;" />
             <g id="Page-1" transform="matrix(1,0,0,1.79558,0.982543,42.4129)">
@@ -80,6 +80,13 @@
         </g>
     </svg>
     <h1>Wir sind uns nicht ganz sicher, ob du hier her wolltest!</h1>
+    <a href="/">Zurück zur Startseite</a>
 </body>
+<script>
+    let svg = document.getElementById('titleSvg');
+    window.setTimeout(function () {
+        svg.classList.add('animate');
+    }, 2000);
+</script>
 
 </html>
