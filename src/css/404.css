@@ -1,3 +1,27 @@
 * {
     text-align: center;
 }
+
+svg {
+    width: 50%
+}
+
+svg path {
+    transition: transform 4s; 
+}
+
+.svgUp path {
+    transform: translateX(-4px) translateY(-4px);
+}
+
+.svgDown path {
+    transform: translateX(4px) translateY(4px);
+}
+
+.svgLeft path {
+    transform: translateX(-4px);
+}
+
+.svgRight path {
+    transform: translateX(4px);
+}
