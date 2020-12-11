@@ -45,24 +45,19 @@ header svg:hover #LionBottom {
     visibility: hidden;
 }
 
-
 @keyframes moveLion {
     0% {
         transform: translateX(0px) translateY(0px);
     }
-
     40% {
-        transform: translateX(-200px) translateY(-200px);
+        transform: translateX(-60px) translateY(-60px);
     }
-
     50% {
-        transform: translateX(200px) translateY(-200px);
+        transform: translateX(60px) translateY(-60px);
     }
-
     60% {
-        transform: translateX(200px) translateY(200px);
+        transform: translateX(60px) translateY(60px);
     }
-
     100% {
         transform: translateX(0px) translateY(0px);
     }
@@ -172,7 +167,6 @@ main {
 }
 
 @media screen and (max-width: 700px) {
-
     .row,
     .navbar {
         flex-direction: column;
