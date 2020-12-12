@@ -1,5 +1,9 @@
 # Visual Studio 2015/2017 cache/options directory
 .vs/
 
+# Node_Modules
+node_modules/
+package-lock.json
+
 # Affinity-Designer files
 *.afdesign
