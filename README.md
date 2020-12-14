@@ -2,11 +2,15 @@
 Projekt zur visualisierung von Opengovernementdata zum Thema der Nutzungsflächen im Thurgau.
 
 ## Anforderungen
-_Um das projekt ausführen zu können wird [Node.js](https://nodejs.org/de/) benötigt._  
-Winget installation: `winget install node`
+_Um das projekt ausführen zu können wird [Node.js](https://nodejs.org/de/) und Express benötigt._  
+**node.js**  
+[Winget](https://github.com/microsoft/winget-cli/releases) installation: `winget install node`
+
+**Express**  
+npm installation: `npm install express --save`
 
 ## Instalation
-Mit `cd <pfad>` in den Projektordner wechseln.  
+Mit `cd <pfad>` in den Projektordner wechseln.
 Lokalen Server mit `node app.js` starten.
 
 ### Startoptionen
