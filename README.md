@@ -9,7 +9,7 @@ _Um das projekt ausführen zu können wird [Node.js](https://nodejs.org/de/) und
 **Express**  
 npm installation: `npm install express --save`
 
-## Instalation
+## Installation
 Mit `cd <pfad>` in den Projektordner wechseln.
 Lokalen Server mit `node app.js` starten.
 
